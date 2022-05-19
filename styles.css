@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+   
+   
+}
+
+body{
+    background:hsl(217, 54%, 11%);
+}
+
+main{
+    background: hsl(216, 50%, 16%);
+    box-shadow: 0px 10px 20px 10px hsl(215, 52%, 8%);
+    width: 300px;
+    height: 490px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+main .section1 {
+    position:relative;
+}
+main .section1 .img1{
+width: 260px;
+margin: 18px 18px 2px 18px;
+border-radius: 10px;
+}
+
+main .section1 .img2{
+    
+    position: absolute;
+    top: 6%;
+    right: 7%;
+    width: 87%;
+    height: 92%;
+    background-color: rgba(0, 255, 255, 0.178);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  
+}
+
+
+.section1:hover .img2{
+    z-index:0;
+}
+
+
+
+
+main .section2 {
+    width: 90%;
+    height: auto;
+    margin:18px;
+    margin-top:11px;
+}
+
+main .section2 h1{
+    font-size: 18px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin: 5px;
+}
+
+main .section2 h1:hover{
+    color:aqua;
+}
+
+main .section2 p{
+    color: hsla(0, 0%, 100%, 0.637);
+    font-weight: 300;
+    margin: 15px 5px;
+    font-size: 15px;
+}
+
+main .section2 div{
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    justify-content: space-between;
+    margin-top:4px;
+}
+main .section2 div h2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+main .section2 div h2 span {
+    color:aqua;
+    margin:1px;
+    padding-left: 4px;
+}
+
+main .section2 div h2 .span2{
+    color: hsla(0, 0%, 100%, 0.637);
+    font-weight: 300    ;
+    padding-left: 2px;
+    margin-right: 10px;
+}
+
+
+
+
+
+main .section3 {
+    border-top: 0.1px solid hsla(0, 0%, 100%, 0.12);
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 86%;
+    height: auto;
+    margin:18px 10px;
+    margin:auto;
+
+}
+main .section3 i img{
+    width: 30px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin:10px 0 0 0 ;
+    margin-right:13px;
+    
+    
+}
+main .section3 p{
+    color:hsla(0, 0%, 100%, 0.637);
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .section3 p span{
+    color:hsl(0, 0%, 100%);
+}
+main .section3 p span:hover{
+    color:aqua;
+}
